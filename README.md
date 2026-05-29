@@ -1,6 +1,6 @@
 # Survival Tools for Randomized Controlled Trials Concordance in NSCLC
 
-Repository for the work: xxx.
+Repository for the work: "Design-Outcome Concordance in Randomized Trials of Targeted Therapies in NonSmall Cell Lung Cancer: A Systematic Review and Meta-Research Study". (Currently under review)
 
 The web app is publicly available at: https://lucamastrantoni.shinyapps.io/RCT_Concordance/.
 The app allows you to:
@@ -8,5 +8,3 @@ The app allows you to:
 - Visualize KM curves and fit Cox proportional hazards models.
 - Compare Bayesian posterior hazard ratio distributions against the original design assumptions, and calculate Wasserstein-1 distance.
 - Quantify discrepancies between hazard ratios and restricted mean survival time (RMST)-based treatment effects.
-
-
