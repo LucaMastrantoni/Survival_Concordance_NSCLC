@@ -8,3 +8,7 @@ The app allows you to:
 - Visualize KM curves and fit Cox proportional hazards models.
 - Compare Bayesian posterior hazard ratio distributions against the original design assumptions, and calculate Wasserstein-1 distance.
 - Quantify discrepancies between hazard ratios and restricted mean survival time (RMST)-based treatment effects.
+
+The example files for the app are in the folder Shiny App files: 
+- ALEX_KM.xlsx: Excel file for survival analysis (2.) and RMST analysis (4.)
+- posterior_b_treat.rds: R file for Bayesian analysis (3.), which can be obtained using the script "bayesian.R"
