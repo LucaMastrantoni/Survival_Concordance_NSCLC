@@ -4,8 +4,6 @@ Repository for the work: **"Design-Outcome Concordance in Randomized Trials of T
 
 The web app is publicly available at: [https://lucamastrantoni.shinyapps.io/RCT_Concordance/](https://lucamastrantoni.shinyapps.io/RCT_Concordance/)
 
----
-
 ## Overview
 
 This app is intended for researchers working with randomized controlled trials (RCTs) and individual patient data (IPD) or reconstructed KM curves. It allows you to:
@@ -14,8 +12,6 @@ This app is intended for researchers working with randomized controlled trials (
 - Visualize **Kaplan-Meier curves** and fit **Cox proportional hazards models**.
 - Compare **Bayesian posterior hazard ratio distributions** against the original design assumptions, and calculate **Wasserstein-1 distance**.
 - Quantify **discrepancies between hazard ratios and restricted mean survival time (RMST)**-based treatment effects.
-
----
 
 ## Tab Description
 
@@ -54,8 +50,6 @@ Restricted mean survival time (RMST) analysis.
 - RMST difference and RMST ratio evaluated over increasing τ.
 - Quantification of mismatch between RMST under an exponential proportional hazards assumption and the observed RMST ratio from KM curves.
 
----
-
 ## Input Data Requirements
 
 - **IPD files** must contain columns named: `time`, `status` (0 = censored, 1 = event), and `treat` (0 = control, 1 = experimental).
@@ -65,14 +59,9 @@ Restricted mean survival time (RMST) analysis.
   - `posterior_b_treat.rds`: R file for Bayesian analysis (Tab 3), obtainable using `bayesian.R`.
 - This app **does not** include a method to reconstruct IPD from published KM curves. We refer to published methods.
 
----
-
 ## Contact
 
 - **Correspondence**: [luca.mastrantoni01@icatt.it](mailto:luca.mastrantoni01@icatt.it)
-
----
-
 ## Affiliation
 
 - Università Cattolica del Sacro Cuore, Rome, Italy
