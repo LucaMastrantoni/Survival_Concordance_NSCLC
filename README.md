@@ -54,17 +54,17 @@ Restricted mean survival time (RMST) analysis.
 
 - **IPD files** must contain columns named: `time`, `status` (0 = censored, 1 = event), and `treat` (0 = control, 1 = experimental).
 - **Bayesian posterior files** must be `.rds` objects containing a column named `b_treat`. Please use the provided R script `bayesian.R`.
-- **Example files** are provided in the `Shiny App files/` folder on GitHub:
+- **Example files** (and the `bayesian.R` script) are provided in the `Shiny App files/` folder on GitHub:
   - `ALEX_KM.xlsx`: Excel file for survival analysis (Tab 2) and RMST analysis (Tab 4).
   - `posterior_b_treat.rds`: R file for Bayesian analysis (Tab 3), obtainable using `bayesian.R`.
 - This app **does not** include a method to reconstruct IPD from published KM curves. We refer to published methods.
 
 ## Running the App Locally
 
-The app source code is in `Shiny App files/` (`app.R`, with the logo in `www/`). To run it locally, install the required packages (`shiny`, `dplyr`, `tidyr`, `tibble`, `ggplot2`, `promises`, `future`, `transport`, `survRM2`, `gtsummary`, `survival`, `survminer`, `broom.helpers`, `broom`, `readxl`, `purrr`) and run:
+The app source code is in `Shiny App/` (`app.R`, with the logo in `www/`). To run it locally, install the required packages (`shiny`, `dplyr`, `tidyr`, `tibble`, `ggplot2`, `promises`, `future`, `transport`, `survRM2`, `gtsummary`, `survival`, `survminer`, `broom.helpers`, `broom`, `readxl`, `purrr`) and run:
 
 ```r
-shiny::runApp("Shiny App files")
+shiny::runApp("Shiny App")
 ```
 
 ## Contact
