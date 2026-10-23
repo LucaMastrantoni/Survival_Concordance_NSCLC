@@ -1,4 +1,6 @@
 library(readxl)
+library(brms)
+# backend = "cmdstanr" requires cmdstanr and CmdStan: install.packages("cmdstanr", repos = c("https://stan-dev.r-universe.dev", getOption("repos"))); cmdstanr::install_cmdstan()
 
 m <- read_xlsx("ALEX_KM.xlsx")
 

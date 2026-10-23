@@ -59,6 +59,14 @@ Restricted mean survival time (RMST) analysis.
   - `posterior_b_treat.rds`: R file for Bayesian analysis (Tab 3), obtainable using `bayesian.R`.
 - This app **does not** include a method to reconstruct IPD from published KM curves. We refer to published methods.
 
+## Running the App Locally
+
+The app source code is in `Shiny App files/` (`app.R`, with the logo in `www/`). To run it locally, install the required packages (`shiny`, `dplyr`, `tidyr`, `tibble`, `ggplot2`, `promises`, `future`, `transport`, `survRM2`, `gtsummary`, `survival`, `survminer`, `broom.helpers`, `broom`, `readxl`, `purrr`) and run:
+
+```r
+shiny::runApp("Shiny App files")
+```
+
 ## Contact
 
 - **Correspondence**: [luca.mastrantoni01@icatt.it](mailto:luca.mastrantoni01@icatt.it)
