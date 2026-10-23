@@ -1,6 +1,6 @@
 # Survival Tools for Randomized Controlled Trials Concordance in NSCLC
 
-Repository for the work: **"Design-Outcome Concordance in Randomized Trials of Targeted Therapies in Non-Small Cell Lung Cancer: A Systematic Review and Meta-Research Study"** *(currently under review)*.
+Repository for the work: **"Design-Outcome Concordance in Randomized Trials of Targeted Therapies in Non-Small Cell Lung Cancer: A Systematic Review and Meta-Research Study"** *(JNCI: Journal of the National Cancer Institute, 2026. https://doi.org/10.1093/jnci/djag241)*.
 
 The web app is publicly available at: [https://lucamastrantoni.shinyapps.io/RCT_Concordance/](https://lucamastrantoni.shinyapps.io/RCT_Concordance/)
 
